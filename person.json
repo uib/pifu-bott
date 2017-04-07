@@ -1,0 +1,65 @@
+{
+    "id": {
+	"personNin": "YYYYMMDDNNNKK",
+	"studentId": "string",
+	"workforceId": "string",
+	"username": "string",
+	"feideName": "string",
+	"systemId": "string"
+    },
+    "status": "active",
+    "name": {
+	"firstName": "string",
+	"lastName": "string",
+	"displayName": ["string"],
+	"fullName": "string",
+	"shortName": "string"
+    },
+    "dateOfBirth": "YYYYMMDD",
+    "gender": 0,
+    "description": {
+	"shortDesc": "string",
+	"longDesc": "string"
+    },
+    "contactInfo": {
+	"phone": {
+	    "mobile": ["string"],
+	    "mobilePrivate": ["string"],
+	    "phone": ["string"],
+	    "phonePrivate": ["string"],
+	    "phoneInternal": ["string"],
+	    "switchboard": ["string"],
+	    "fax": ["string"]
+	},
+	"email": {
+	    "email": ["string"],
+	    "emailPrivate": ["string"]
+	},
+	"webAddress": {
+	    "webAddressUrl": ["string"]
+	},
+	"address": {
+	    "postalAddress": {
+		"addressLine": ["string"],
+		"postalCode": "string",
+		"city": "string",
+		"country": "no",
+		"preferredLang": "nb"
+	    },
+	    "visitorAddress": {},
+	    "deliveryAddress": {},
+	    "invoiceAddress": {},
+	    "privateAddress": {}
+	}
+    },
+    "picture": {
+	"pictureUrl": "url",
+	"pictureInline": "string",
+	"pictureFormat": "image/jpeg"
+    },
+    "authInfo": {
+	"passwordMd5": "string",
+	"passwordPlain": "string"
+    }
+}
+
