@@ -1,0 +1,130 @@
+{
+    "ID": [
+	{
+	    "Type": "NIN",
+	    "Value": "17097055655",
+	    "Scope": "no"
+	},
+	{
+	    "Type": "feideName",
+	    "Value": "jannest@måne.kommune.no",
+	    "Scope": "feide.no",
+	    "IsUnique": true
+	},
+	{
+	    "Type": "localUserName",
+	    "Value": "jannest",
+	    "AuthInfo": [
+		{
+		    "Type": "password",
+		    "Value": "d41d8cd98f00b204e9800998ecf8427e",
+		    "Source": "MD5"
+		}
+	    ]
+	}
+    ],
+    "Name": [
+	{
+	    "Type": "firstName",
+	    "Value": "Janne"
+	},
+	{
+	    "Type": "lastName",
+	    "Value": "Stor"
+	},
+	{
+	    "Type": "formattedName",
+	    "Value": "Dr Janne A. Stor"
+	},
+	{
+	    "Type": "initials",
+	    "Value": "JAS"
+	}
+    ],
+    "Address": [
+	{
+	    "Type": "personRegistteredAddress",
+	    "AddressInfo": ["Planetariums gt 314"],
+	    "PostalCode": 7271,
+	    "City": "Måneby"
+	}
+    ],
+    "ContactInfo": [
+	{
+	    "Type": "personTelephonePrivate",
+	    "Value": "+47-73000037"
+	},
+	{
+	    "Type": "personEmailPrivate",
+	    "Value": "janne_stor@gmail.com"
+	}
+    ],
+    "RelatedToPerson": [
+	{
+	    "ID": {
+		"Type": "basID",
+		"Content": "global_ID_02772"
+	    },
+	    "Relation": {
+		"Type": "nextOfKin"
+	    }
+	}
+    ],
+    "RelatedToOrgUnit": [
+	{
+	    "ID": {
+		"Type": "basID",
+		"Value": "global_ID_org_2"
+	    },
+	    "Relation": {
+		"Type": "member"
+	    }
+	},
+	{
+	    "ID": {
+		"Type": "basID",
+		"Value": "global_ID_org_17"
+	    },
+	    "Relation": {
+		"Type": "instructor",
+		"PrimaryRelation": true,
+		"Extension": [
+		    {
+			"Type": "http://psi.pifu.no/...",
+			"Value": "1"
+		    }
+		]
+	    }
+	}
+    ],
+    "Status": [
+	{
+	    "Type": "aktiv/inaktiv",
+	    "Value": "aktiv"
+	}
+    ],
+    "DateOfBirth": "1970-09-17",
+    "Gender": {
+	"Content": 2,
+	"Source": "ISO/IEC 5218"
+    },
+    "Picture": {
+    },
+    "PreferredLanguage": {
+	"Content": "nob",
+	"Source": "ISO 639-2"
+    },
+    "NativeTounge": [
+	{
+	    "Content": "smj",
+	    "Source": "ISO 639-2"
+	},
+	{
+	    "Content": "nob",
+	    "Source": "ISO 639-2"
+	}
+    ],
+    "Privacy": {
+	"DoNotShowAttribute": ["personTelephonePrivate"]
+    }
+}
