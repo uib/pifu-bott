@@ -165,21 +165,21 @@ objects like:
 
 ```json
 {
-  “Content”: “A string value”,
-  “Source”: “ISO 8601”
+  "Content": "A string value",
+  "Source": "ISO 8601"
 }
 ```
 
 in most cases the “Source” attribute isn’t really used and we can simplify this to:
 
 ```json
-“A string value”
+"A string value"
 ```
 
 For date-time values we use strings like:
 
 ```json
-“2017-04-20 14:05:30”
+"2017-04-20 14:05:30"
 ```
 
 while integer and boolean values have a natural mapping in JSON.  We don’t use
