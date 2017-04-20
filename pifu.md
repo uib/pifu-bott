@@ -242,3 +242,42 @@ The Type values used above isn't part of the PIFU standard, but is used in some 
 in the standard.  For a more comprehensive example take a look at:
 
 * [janne-pifu-person.json](janne-pifu-person.json)
+
+## Attributes
+
+### Extension
+
+The attribute value has the form:
+
+```json
+[
+  {
+    "Type": "someExtraField",
+    "Value": "some value"
+    "Privacy": {
+      "DoNotShowObject": true
+    }
+  },
+  {
+    "Type": "anotherExtraField",
+    "Value": 42
+  }
+]
+```
+
+It's a list of key/value pairs that can be used to add info that's not part of the standard
+PIFU model to most objects.
+
+### Timeframe
+
+The attribute value has the form:
+
+```json
+{
+  "From": "2017-01-01 00:00:00",
+  "To":   "2017-04-30 23:59:59",
+}
+```
+
+This indicates at what time period the attached information is valid for.  The From and To attributes
+are optional.
