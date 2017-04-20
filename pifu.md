@@ -228,7 +228,7 @@ and if we add some more attributes we end up with:
     }
   ],
   "Gender": {
-    "Content": 1,
+    "Content": "1",
     "Source": "ISO/IEC 5218"
   },
   "PreferredLanguage": {
