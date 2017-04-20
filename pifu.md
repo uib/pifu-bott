@@ -62,8 +62,9 @@ From this follows that the only mandatory attribute for _Person_ is ID, while
 _Group_ and _OrgUnit_ objects in addition to ID has Type as mandatory
 attribute.
 
-The _Relation_ objects can be used in any combination with _Person_, _Group_ and
-_OrgUnit_ to create a web of relationships.
+The _Relation_ objects can be used to form pairs in any combination with
+_Person_, _Group_ and _OrgUnit_ objects to create a web of relationships.
+The pairs can also include two objects of the same kind.
 
 The attribute values are themselves objects with structure and their own attributes.
 
