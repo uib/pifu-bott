@@ -51,7 +51,7 @@ _Person_ objects also have these attributes:
 * NativeTongue\*
 * SpecialNeed\*
 
-The cardinality of attributes described above is indicated by the trailing ‘?’,
+The cardinality of attributes described is indicated by the trailing ‘?’,
 ‘\*’, or ‘+’ character.  The meaning is the same as when they occur in [regular
 expressions](https://en.wikipedia.org/wiki/Regular_expression#Basic_concepts).
 The ‘?’ means 0 or 1 occurrence.  The ‘\*’ means 0 or more occurrences.  The
