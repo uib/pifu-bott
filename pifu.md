@@ -197,10 +197,10 @@ A minimal Person object can thus be represented as:
 
 ```json
 {
-  “ID”: [
+  "ID": [
     {
-      “Type”: “feideName”,
-      “Value”: “gaa041@uib.no”
+      "Type": "feideName",
+      "Value": "gaa041@uib.no"
     }
   ]
 }
@@ -210,29 +210,29 @@ and if we add some more attributes we end up with:
 
 ```json
 {
-  “ID”: [
+  "ID": [
     {
-      “Type”: “feideName”,
-      “Value”: “gaa041@uib.no”
+      "Type": "feideName",
+      "Value": "gaa041@uib.no"
     }
   ],
-  “Name”: [
+  "Name": [
     {
-    “Type”: “firstName”,
-    “Value”: “Gisle”
-    }.
+      "Type": "firstName",
+      "Value": "Gisle"
+    },
     {
-    “Type”: “lastName”,
-    “Value”: “Aas”
+      "Type": "lastName",
+      "Value": "Aas"
     }
   ],
-  “Gender”: {
-    “Content”: 1,
-    “Source”: “ISO/IEC 5218”
+  "Gender": {
+    "Content": 1,
+    "Source": "ISO/IEC 5218"
   },
-  “PreferredLanguage”: {
-    “Content”: “nb”,
-    “Source”: “ISO 639-1”
+  "PreferredLanguage": {
+    "Content": "nb",
+    "Source": "ISO 639-1"
   }
 }
 ```
